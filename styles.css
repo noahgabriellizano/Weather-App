@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    /*background-color: rgb(44, 43, 43);*/
+    /*background-image: url('https://www.shutterstock.com/image-vector/realistic-illustration-autumn-night-rain-600nw-1932348497.jpg');*/
+    background-image: url('https://media.istockphoto.com/id/962500712/video/4k-tl-cloudy-sky-with-sun-rays.jpg?s=640x640&k=20&c=XQrz-Y4FIzovVlayePLhPZpHoM8-iLN7gZ_uSdnoe-8=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: nunito;
+    color: lightgrey;
+    transition: 500ms
+}
+
+header {
+    text-align: center;
+    /*background-color: rgb(24, 24, 24);*/
+    background-image: linear-gradient(to right, purple, blue);
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 3px solid black;
+    padding: 10px;
+    margin-bottom: 40px
+}
+
+#search {
+    width: 310px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    background-image: linear-gradient(to right, purple, blue);
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: 0 auto;
+    opacity: 0.85
+}
+
+input {
+    height: 50px;
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-family: nunito;
+    color: lightgrey;
+    margin: 0;
+    padding-left: 5px
+}
+
+input:focus {
+    outline: none
+}
+
+#enter {
+    height: 50px;
+    width: 70px;
+    background-color: transparent;
+    border: none
+}
+
+#converter {
+    height: 50px;
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    font-family: nunito;
+    color: lightgrey;
+    text-shadow: 0 0 20px black;
+    font-weight: bold
+}
+
+#card {
+    display: flex;
+    border: 3px solid black;
+    flex-direction: column;
+    width: 350px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, purple, blue);
+    margin: auto;
+    padding: 10px;
+    opacity: 0.85;
+    gap: 5px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#previous {
+    margin-bottom: -35px;
+    margin-left: -11px;
+    width: 55%;
+    height: 30px;
+    border-bottom-left-radius: 15px;
+    border: 3px solid black;
+    background-color: slategrey;
+    font-family: nunito;
+    color: lightgrey;
+    font-weight: bold
+
+}
+
+#next {
+    margin-right: -11px;
+    margin-bottom: -13px;
+    width: 55%;
+    height: 30px;
+    align-self: flex-end;
+    border-bottom-right-radius: 15px;
+    border: 3px solid black;
+    background-color: rgb(27, 27, 27);
+    font-family: nunito;
+    color: lightgrey;
+    font-weight: bold
+
+}
